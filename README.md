@@ -42,15 +42,7 @@ This project showcases real-world data engineering workflows, including API inge
 
 ### 🌌 NASA APOD API (Data Source)
 
-- The pipeline extracts data from NASA’s Astronomy Picture of the Day API, including:
-
--- title
-
--- explanation
-
--- url
-
--- date
+- The pipeline extracts data from NASA’s Astronomy Picture of the Day API, including: title, explanation, url and date.
 
 - Data is fetched daily using HTTP requests.
 
@@ -66,11 +58,7 @@ This project showcases real-world data engineering workflows, including API inge
 
 ### 🐳 Docker & Docker Compose
 
-- Containerizes:
-
--- Apache Airflow
-
--- PostgreSQL
+- Containerizes: Apache Airflow and PostgreSQL
 
 - Ensures consistent environments across machines
 
