@@ -7,7 +7,6 @@ Extract • Transform • Load • Orchestrate — fully automated data workflow
 🛠️ Apache Airflow • 🐘 PostgreSQL • 🐳 Docker • 🌌 NASA APOD API • 🐍 Python
 
 </div>
----
 
 ## 🌟 Overview
 
