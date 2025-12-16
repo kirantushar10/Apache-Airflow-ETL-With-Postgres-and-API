@@ -30,3 +30,48 @@ This project showcases real-world data engineering workflows, including API inge
 ### ✔️ Demonstrate Airflow hooks, operators, and DAG design
 
 ---
+
+## 🧩 Core Components
+### 🌀 Apache Airflow (Orchestration)
+
+- Defines and schedules the ETL workflow using a DAG
+
+- Manages task dependencies and execution order
+
+- Provides monitoring, logging, retries, and failure handling
+
+### 🌌 NASA APOD API (Data Source)
+
+- The pipeline extracts data from NASA’s Astronomy Picture of the Day API, including:
+
+-- title
+
+-- explanation
+
+-- url
+
+-- date
+
+- Data is fetched daily using HTTP requests.
+
+### 🐘 PostgreSQL (Data Storage)
+
+- Stores extracted and transformed data
+
+- Runs inside a Docker container
+
+- Uses Docker volumes for data persistence
+
+- Interacted with using Airflow’s PostgresHook
+
+### 🐳 Docker & Docker Compose
+
+- Containerizes:
+
+-- Apache Airflow
+
+-- PostgreSQL
+
+- Ensures consistent environments across machines
+
+- Simplifies setup and deployment
